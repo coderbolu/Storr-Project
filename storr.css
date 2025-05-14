@@ -6,3 +6,8 @@
     box-sizing: border-box;
 }
 
+:root {
+    --Inter: 'Inter',sans-serif; 
+    --White: #FFFFFF;
+    --Black: #000000;
+}

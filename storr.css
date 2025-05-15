@@ -34,15 +34,16 @@ body {
 .details {
     display: flex;
     flex-direction: column;
-    max-width: 20rem;
-    padding-top: 5rem;
+    max-width: 30rem;
+    padding-top: 7rem;
 }
 
 .feature-details .icloud img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     align-items: center;
     justify-content: center;
+    padding-left: 1rem;
 }
 
 .details h3 {
@@ -60,7 +61,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     padding-left: 2rem; ;
 }
 

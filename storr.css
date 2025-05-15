@@ -53,7 +53,7 @@ body {
 .details p {
     margin-top: .50rem;
     font-size: .70rem;
-    font-weight:400;
+    font-weight:350;
 }
 
 .details .sub {
@@ -100,8 +100,9 @@ body {
 .storage-details .storage {
     display: flex;
     flex-direction: column;
-    max-width: 27rem;
-    padding: 6rem 3rem 3rem 6rem
+    max-width: 30rem;
+    padding: 6rem 3rem 3rem 6rem;
+    margin:0 2rem 5rem 0; ;
 }
 
 .storage-details .phone img {
@@ -110,7 +111,7 @@ body {
 }
 
 .storage .h3 {
-    font-size: 1.5rem;
+    font-size: 1.50rem;
     line-height: 2rem;
 }
 

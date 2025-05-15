@@ -19,7 +19,7 @@ body {
     min-height: 100vh; /*'vh' means "viewport height*/
     min-width: 100px;
     font-family: var(--Inter);
-    background-color:  #f2f2f2;
+    background-color:  #ffffff;
     padding:5rem;
 }
 
@@ -97,7 +97,7 @@ body {
     color: var(--White);
     gap:2rem;
     border-radius: 1rem;
-    padding: 1rem;;
+    margin: 3rem;
 }
 
 .storage-details .storage {
@@ -132,7 +132,7 @@ body {
 }
 
 footer{
-    padding: 5rem 5rem 5rem 10rem;
+    padding: 1rem 5rem 5rem 10rem;
 }
 
 footer h3 {
@@ -158,14 +158,14 @@ th {
     font-weight: 700;
     font-size: 0.85rem;
     text-align:start;
-    padding: 0 0 1rem 7rem;
+    padding: 0 0 1rem 6.5rem;
     margin-right: 3rem;
 }
 
 tr {
     display: flex;
     flex-direction: row;
-    margin:0 0rem 0.50rem 0rem;
+    margin-bottom: 0.50rem;
 }
 
 td {
@@ -173,18 +173,18 @@ td {
 }
 
 td:nth-child(1) {
-    margin-left: 6.9rem;
+    margin-left: 6.5rem;
 }
 
 td:nth-child(2) {
-    margin-left:3.1rem;
+    margin-right:3rem;
 
 }
 
 td:nth-child(3) {
-    margin-left: 2.5rem;
+    margin-right;
 }
 
 td:nth-child(4) {
-    margin-left:3rem;
+    margin-left:0;
 }

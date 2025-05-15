@@ -141,7 +141,10 @@ footer h3 {
 }
 
 table {
+    display: flex;
+    flex-direction: column;
     color: #0431c7;
     text-align: left;
     font-size: 0.75rem;
 }
+

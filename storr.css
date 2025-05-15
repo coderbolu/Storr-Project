@@ -79,4 +79,7 @@ body {
     padding-bottom: 1rem;
 }
 
-
+.details .sub .lower {
+    display: flex;
+    align-content: space-evenly;
+}

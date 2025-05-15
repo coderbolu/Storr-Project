@@ -10,7 +10,7 @@
     --Inter: 'Inter',sans-serif; 
     --White: #FFFFFF;
     --Black: #000000;
-    --Blue:#0431c7;
+    --Blue:#0862ff;
 }
 
 body {
@@ -92,5 +92,6 @@ body {
 
 .storage-details {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color: var(--Blue);
 }

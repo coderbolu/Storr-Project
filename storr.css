@@ -89,3 +89,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.storage-details {
+    display: flex;
+    flex-direction: column;
+}

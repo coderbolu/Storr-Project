@@ -13,3 +13,13 @@
     --Blue:#0431c7;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    max-height: 100vh; /*'vh' means "viewport height*/
+    width: 100%;
+    font-family: var(--Inter);
+    background-color: var(--White);
+    
+
+}

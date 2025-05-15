@@ -168,12 +168,16 @@ tr {
     margin:0 0rem 0.50rem 0rem;
 }
 
+td {
+    width: 100%;
+}
+
 td:nth-child(1) {
     margin-left: 4rem;
 }
 
 td:nth-child(2) {
-    margin-right: rem;
+    margin-left: 0.50rem;
 
 }
 
@@ -181,6 +185,3 @@ td:nth-child(3) {
     margin-right: 6rem;
 }
 
-td {
-    width: 100%;
-}

@@ -19,8 +19,16 @@ body {
     max-height: 100vh; /*'vh' means "viewport height*/
     width: 100%;
     font-family: var(--Inter);
-    background-color: var(--White);
+    background-color:  #f2f2f2;
     padding: 100px 0;
 }
 
-.fea
+.feature-details {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--White);
+    padding: 2rem;
+    gap 2rem;
+    max-width: 30rem;
+
+}

@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     min-height: 100vh; /*'vh' means "viewport height*/
-    min-width: 100%;
+    min-width: 100px;
     font-family: var(--Inter);
     background-color:  #f2f2f2;
     padding:5rem;
@@ -27,19 +27,19 @@ body {
     display: flex;
     flex-direction: row;
     background-color: var(--White);
-    padding: 3rem;
-    gap:2rem;
+    padding: 5rem;
+    gap:2rem;   
 }
 
 .details {
     display: flex;
     flex-direction: column;
-    max-width: 30rem;
+    max-width: 20rem;
     padding-top: 7rem;
 }
 
 .feature-details .icloud img {
-    width: 360px;
+    width: 450px;
     height: 320px;
     align-items: center;
     justify-content: center;
@@ -94,4 +94,8 @@ body {
     display: flex;
     flex-direction: row;
     background-color: var(--Blue);
+    padding:5rem;
+    color: var(--White);
+    gap:2rem;
 }
+

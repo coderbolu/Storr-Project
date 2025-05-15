@@ -96,6 +96,8 @@ body {
     background-color: var(--Blue);
     color: var(--White);
     gap:2rem;
+    border-radius: 1rem;
+    padding: 1rem;;
 }
 
 .storage-details .storage {
@@ -130,7 +132,7 @@ body {
 }
 
 footer{
-    padding: 5rem 10rem 5rem 10rem;
+    padding: 5rem 5rem 5rem 15rem;
 }
 
 footer h3 {
@@ -156,20 +158,29 @@ th {
     font-weight: 700;
     font-size: 0.85rem;
     text-align:start;
-    padding-left: 4rem;
-    margin-left: 3rem;
+    padding: 0 0 1rem 4rem;
+    margin-right: 3.5rem;
 }
 
 tr {
     display: flex;
     flex-direction: row;
-    margin:0 2rem 1rem 2rem;
-    padding: 0 1rem, 0 2rem;
+    margin:0 0rem 0.50rem 0rem;
+}
+
+td:nth-child(1) {
+    margin-left: 4rem;
+}
+
+td:nth-child(2) {
+    margin-right: rem;
+
+}
+
+td:nth-child(3) {
+    margin-right: 6rem;
 }
 
 td {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 1rem 0.50rem 0.50rem;
 }

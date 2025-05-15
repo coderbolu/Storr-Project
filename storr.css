@@ -100,8 +100,12 @@ body {
 .storage-details .storage {
     display: flex;
     flex-direction: column;
-    max-width: 25rem;
-    padding: 5rem;
+    max-width: 27rem;
+    padding: 8rem 5rem 3rem 8rem
+}
+
+.storage-details .phone img {
+    margin-top: 2rem;
 }
 
 .storage .h3 {
@@ -113,4 +117,10 @@ body {
     margin-top: .50rem;
     font-size: .70rem;
     font-weight: 200;
+}
+
+.storage img {
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: 2rem;
 }

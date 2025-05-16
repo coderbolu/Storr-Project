@@ -431,3 +431,65 @@ td:nth-child(4) {
 
     
 }
+
+/* -- Tablet Responsive (≤922px) --*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    max-width: 100%;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 2%;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+
+  .left h1 {
+    font-size: 36px;
+  }
+
+  .left p {
+    font-size: 13px;
+  }
+
+  .right img.phone-mockup {
+    max-width: 350px;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .store-buttons img {
+    width: 100px;
+    height: 40px;
+  }
+
+  .active-users img {
+    width: 80px;
+  }
+
+  .arrow-img {
+    bottom: 96px;
+    left: 214px;
+  }
+
+  .underline {
+    width: 100px;
+    top: 40px;
+  }
+
+  .box-img {
+    width: 50px;
+    right: 70px;
+    top: -40px;
+  }
+
+  nav a {
+    margin: 0 12px;
+    font-size: 14px;
+  }
+}

@@ -46,8 +46,9 @@ header {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 20px;
+  padding-left: 20rem;
 }
 
 nav a {
@@ -55,6 +56,10 @@ nav a {
   margin: 0 20px;
   text-decoration: none;
   font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: var(--Blue);
 }
 
 .container {
@@ -511,8 +516,7 @@ nav a {
     padding: 3rem 2rem;
     color: #0431c7;
     text-align: center;
-    }
-
+    
     footer h3 {
     margin-bottom: 2rem;
     font-size: 1.3rem;

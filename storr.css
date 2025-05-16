@@ -254,6 +254,7 @@ nav a {
   margin-left: 31.5%;
 }
 
+/* —— Tablet (≤922px) —— */
 @media (max-width: 922px) {
 .grid-card {
     grid-template-columns: repeat(2, 1fr);

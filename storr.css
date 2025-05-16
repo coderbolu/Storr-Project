@@ -488,7 +488,7 @@ nav a {
   }
 }
 
-/* for phone */
+/* for smaller device */
 @media (max-width: 576px) {
   .storage-details {
     padding: 1.5rem 1rem;

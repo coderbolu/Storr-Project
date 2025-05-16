@@ -433,6 +433,7 @@ td:nth-child(4) {
 
  /* media query for mobile (smaller than 640px)  */
 @media (max-width: 640px) {
+    /* Header Section */
      nav {
     display: none;
   }
@@ -482,11 +483,48 @@ td:nth-child(4) {
   .active-users img {
     width: 80px;
   }
+
+  /* feature section */
+
+   .grid-card {
+    grid-template-columns: 1fr;
+  }
+
+  .features > h2 {
+    font-size: 1.5rem;
+  }
+
+  .card h3, .card p {
+    margin: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .card img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .card-tagging,
+  .card-offline,
+  .card-pin,
+  .card-search,
+  .card-encryption {
+    width: 100%;
+    margin: 0 auto;
+    grid-column: auto;
+    grid-row: auto;
+  }
 }
 
 
 
 /* -- Tablet Responsive (≤922px) --*/
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     /* Header section */
   .navbar {

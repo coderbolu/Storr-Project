@@ -536,6 +536,14 @@ th, td {
     text-align: left;
 }
 
+table tr th a{
+    text-decoration: none;
+}
+
+table tr th a:hover{
+    color:black;
+}
+
 thead {
     background-color: #e5eaff;
     font-weight: bold;

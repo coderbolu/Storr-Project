@@ -405,6 +405,29 @@ thead {
   font-weight: bold;
 }
 
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 2rem 1rem;
+  }
+
+  footer h3 {
+    font-size: 1rem;
+  }
+
+  table {
+    max-width: 100%;
+    font-size: 0.65rem;
+  }
+
+  th, td {
+    padding: 0.4rem 0.6rem;
+  }
+
+  thead {
+    font-size: 0.7rem;
+  }
+}
 
 
 

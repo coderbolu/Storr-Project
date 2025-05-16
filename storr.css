@@ -431,7 +431,6 @@ td:nth-child(4) {
 
 
 
-
  /* media query for mobile (smaller than 640px)  */
 @media (max-width: 640px) {
      nav {
@@ -485,8 +484,11 @@ td:nth-child(4) {
   }
 }
 
+
+
 /* -- Tablet Responsive (≤922px) --*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Header section */
   .navbar {
     max-width: 100%;
   }
@@ -545,4 +547,45 @@ td:nth-child(4) {
     margin: 0 12px;
     font-size: 14px;
   }
+
+  /* Features section */
+
+  .grid-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .card-tagging,
+  .card-offline,
+  .card-pin,
+  .card-search,
+  .card-encryption {
+    grid-column: auto;
+    grid-row: auto;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card-encryption {
+    grid-column: 1 / span 2;
+    width: 50%;
+  }
+
+  .card-search img,
+  .card-pin img{
+    margin-top: 10%;
+  }
+
+  .card-tagging h3 {
+    margin-top: 10%;
+  }
+
+  .card-offline h3 {
+    margin-top: 20%;
+  }
+
+  .card-pin h3 {
+    margin-top: 10%;
+  }
+
 }

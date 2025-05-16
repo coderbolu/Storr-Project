@@ -18,16 +18,14 @@ body {
     justify-content: center;
     font-family: var(--Inter);
     background-color:  #ffffff;
+    min-height: 100vh; /*'vh' means "viewport height*/
+    min-width: 100px;
     padding:5rem;
 }
 
 .feature-details {
     display: flex;
     flex-direction: row;
-    min-height: 100vh; /*'vh' means "viewport height*/
-    min-width: 100px;
-    /* max-width: 1200px; */
-    /* width: 100; */
     background-color: var(--White);
     gap:2rem;   
 }
@@ -263,8 +261,8 @@ td:nth-child(4) {
     }
 
     .storage-details .phone img {
-    height:350px;
-    padding-left: 5rem;
+    height:450px;
+    padding-left: 3rem;
     margin-top: 0;
     }
 

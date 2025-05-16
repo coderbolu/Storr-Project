@@ -314,122 +314,55 @@ td:nth-child(4) {
 
  /* media query for mobile (smaller than 640px)  */
 @media (max-width: 640px) {
-    body{
-        padding: 0rem;
-    }
+     nav {
+    display: none;
+  }
 
-    .feature-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-
-    }
-    
-    .feature-details .details {
-    display: flex;
-    flex-direction: column;
+  .navbar {
     justify-content: center;
-    padding-bottom: 0;
-    }
+  }
 
-    .details .sub {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    margin-bottom: 0;
-    }
+  .logo {
+    margin: 0 auto;
+    text-align: center;
+  }
 
-    .details .sub .heading {
-    display: flex;
-    flex-direction: space-between;
-    font-size: 0.80rem;
-    font-weight: 800;
-    /* margin-right: 1rem; */
-    /* padding-bottom: 0.20rem; */
-    }
+  .left h1 {
+    font-size: 30px;
+  }
 
-    .details h3 {
-    font-size: 1.75rem;
-    line-height: 2.2rem;
-    font-weight: 700;
-    }
+  .left p {
+    font-size: 13px;
+  }
 
-    .details p {
-    margin-top: .50rem;
-    font-size: .80rem;
-    font-weight:350;
-    }
+  .arrow-img {
+    bottom: 96px;
+    left: 214px;
+  }
 
-    .feature-details .icloud img {
-    width: 370px;
-    height: 300px;
-    margin-top: 0;
-    }
+  .underline {
+    width: 90px;
+    top: 31px;
+  }
 
-    .storage-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 1rem;
-    }
+  .box-img {
+    width: 50px;
+    right: 115px;
+    top: -40px;
+  }
 
-    .storage-details .storage {
-    display: flex;
-    flex-direction: column;
-    padding: 6rem 0 0 15rem;
-    }
+  .right img.phone-mockup {
+    max-width: 300px;
+  }
 
-    .storage-details .phone img {
-    height:450px;
-    /* width: 650px; */
-    padding-left: 5rem;
-    margin-top: 0;
-    padding-top: 0;
-    }
+  .store-buttons img {
+    height: 40px;
+    width: 100px;
+  }
 
-    .storage .h3 {
-    font-size: 3rem;
-    font-weight: 700;
-}   
-
-    .storage p {
-    margin-top: .50rem;
-    font-size: 0.80rem;
-    font-weight: 200;
-    }
-
-    footer{
-    padding: 0rem;
-    }
-
-    
-    table {
-    display: flex;
-    flex-direction: row;
-    color: #0431c7;
-    /* text-align: left; */
-    font-size: 0.75rem;
-    }
-
-    th { 
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    font-weight: 700;
-    font-size: 0.85rem;
-    text-align:start;
-    padding: 0 0 1rem 6.5rem;
-    margin-right: 3rem;
-    }
-
-    tr {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 0.50rem;
-    }
-
-    
+  .active-users img {
+    width: 80px;
+  }
 }
 
 /* -- Tablet Responsive (≤922px) --*/

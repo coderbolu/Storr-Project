@@ -330,6 +330,50 @@ nav a {
   padding-bottom: 2rem;
 }
 
+/* Responsive for tablets and smaller devices */
+@media (max-width: 992px) {
+  .storage-details {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 5%;
+  }
+
+  .storage-details .storage,
+  .storage-details .phone {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .storage-details .phone {
+    justify-content: center;
+  }
+
+  .storage-details h2 {
+    font-size: 2rem;
+  }
+
+  .storage-details p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .storage-details {
+    padding: 1.5rem 1rem;
+  }
+
+  .storage-details h3 {
+    font-size: 1.2rem;
+  }
+
+  .storage-details p {
+    font-size: 0.75rem;
+  }
+}
+
+
+/* Footer Section */
 footer{
     padding: 1rem 5rem 5rem 10rem;
 }

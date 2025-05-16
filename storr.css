@@ -194,6 +194,19 @@ td:nth-child(4) {
 
  /* media query for mobile (smaller than 640px)  */
 @media (max-width: 640px) {
+    body{
+        padding: 0rem;
+    }
+
+    .feature-details {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--White);
+    /* gap:2rem;    */
+    }
+
     
+
+
     
 }

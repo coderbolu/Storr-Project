@@ -253,7 +253,7 @@ nav a {
   margin-left: 31.5%;
 }
 
-
+/* Storage Features Section */
 body {
     display: flex;
     justify-content: center;
@@ -484,7 +484,7 @@ td:nth-child(4) {
     width: 80px;
   }
 
-  /* feature section */
+  /* Feature Section */
 
    .grid-card {
     grid-template-columns: 1fr;
@@ -519,6 +519,9 @@ td:nth-child(4) {
     grid-column: auto;
     grid-row: auto;
   }
+
+  /* Storage Features Section  */
+
 }
 
 
@@ -526,7 +529,7 @@ td:nth-child(4) {
 /* -- Tablet Responsive (≤922px) --*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Header section */
+    /* Header Section */
   .navbar {
     max-width: 100%;
   }
@@ -586,7 +589,7 @@ td:nth-child(4) {
     font-size: 14px;
   }
 
-  /* Features section */
+  /* Features Section */
 
   .grid-card {
     grid-template-columns: repeat(2, 1fr);
@@ -625,5 +628,7 @@ td:nth-child(4) {
   .card-pin h3 {
     margin-top: 10%;
   }
+
+  /* Storage Features Section  */
 
 }

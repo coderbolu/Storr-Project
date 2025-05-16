@@ -321,6 +321,7 @@ nav a {
 }
 
 
+ /* Storage Icons Feature Section */
 
 .storage-details {
     display: flex;
@@ -516,6 +517,21 @@ td:nth-child(4) {
 
 }
 
+
+@media (max-width: 768px) {
+  .feature-details {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature-details .icloud img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+}
 
 
 /* -- Tablet Responsive (≤922px) --*/

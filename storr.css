@@ -188,3 +188,12 @@ td:nth-child(3) {
 td:nth-child(4) {
     margin-right:4.5rem;
 }
+
+
+
+
+ /* media query for mobile (smaller than 640px)  */
+@media (max-width: 640px) {
+    
+    
+}

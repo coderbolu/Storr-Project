@@ -544,6 +544,13 @@ table tr th a:hover{
     color:black;
 }
 
+table tr td a{
+    text-decoration: none;
+}
+
+
+
+
 thead {
     background-color: #e5eaff;
     font-weight: bold;

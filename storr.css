@@ -24,10 +24,10 @@ body {
 .feature-details {
     display: flex;
     flex-direction: row;
-     min-height: 100vh; /*'vh' means "viewport height*/
-    /* min-width: 100px; */
-    max-width: 1200px;
-    width: 100;
+    min-height: 100vh; /*'vh' means "viewport height*/
+    min-width: 100px;
+    /* max-width: 1200px; */
+    /* width: 100; */
     background-color: var(--White);
     gap:2rem;   
 }
@@ -203,17 +203,60 @@ td:nth-child(4) {
     .feature-details {
     display: flex;
     flex-direction: column;
-    background-color: var(--White);
-    /* gap:2rem;    */
+    justify-content: center;
     }
     
     .feature-details .details {
     display: flex;
     flex-direction: column;
-    /* max-width: 30rem; */
-    /* padding: 10rem 2rem 5rem 7rem; */
-}
+    padding-left: 100px;
+    }
 
+    .feature-details .icloud img {
+    width: 470px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .storage-details {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    border-radius: 1rem;
+    }
+
+    .storage-details .storage {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0 0 12rem;
+    /* margin:0 2rem 5rem 0; */
+    }
+
+    .storage-details .phone img {
+    height:350px;
+    padding-left: 5rem;
+    }
+
+    .storage .h3 {
+    font-size: 3rem;
+    line-height: 2rem;
+    font-weight: 700;
+}   
+
+    .storage p {
+    margin-top: .50rem;
+    font-size: 1rem;
+    font-weight: 200;
+    }
+
+    footer{
+    padding: 0rem;
+    }
+
+
+
+    
 
 
 

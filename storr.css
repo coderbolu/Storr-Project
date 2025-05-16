@@ -59,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--Blue);
+  background-color:black;
 }
 
 .container {

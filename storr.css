@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: row;
     min-height: 100vh; /*'vh' means "viewport height*/
-    /* min-width: 100px; */
+    min-width: 100px;
     /* max-width: 1200px; */
     /* width: 100; */
     background-color: var(--White);
@@ -205,20 +205,30 @@ td:nth-child(4) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     }
     
     .feature-details .details {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding-bottom: 0;
     }
 
     .details .sub {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-top: 2rem;
     margin-bottom: 0;
+    }
+
+    .details .sub .heading {
+    display: flex;
+    flex-direction: space-between;
+    font-size: 0.80rem;
+    font-weight: 800;
+    /* margin-right: 1rem; */
+    /* padding-bottom: 0.20rem; */
     }
 
     .details h3 {
@@ -236,13 +246,13 @@ td:nth-child(4) {
     .feature-details .icloud img {
     width: 370px;
     height: 300px;
-    /* justify-content: center; */
     margin-top: 0;
     }
 
     .storage-details {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     border-radius: 1rem;
     }
 
@@ -260,7 +270,6 @@ td:nth-child(4) {
 
     .storage .h3 {
     font-size: 3rem;
-    /* line-height: 2rem; */
     font-weight: 700;
 }   
 

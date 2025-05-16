@@ -16,8 +16,6 @@
 body {
     display: flex;
     justify-content: center;
-    min-height: 100vh; /*'vh' means "viewport height*/
-    min-width: 100px;
     font-family: var(--Inter);
     background-color:  #ffffff;
     padding:5rem;
@@ -26,6 +24,10 @@ body {
 .feature-details {
     display: flex;
     flex-direction: row;
+     min-height: 100vh; /*'vh' means "viewport height*/
+    /* min-width: 100px; */
+    max-width: 1200px;
+    width: 100;
     background-color: var(--White);
     gap:2rem;   
 }
@@ -204,8 +206,15 @@ td:nth-child(4) {
     background-color: var(--White);
     /* gap:2rem;    */
     }
-
     
+    .feature-details .details {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 30rem; */
+    /* padding: 10rem 2rem 5rem 7rem; */
+}
+
+
 
 
     

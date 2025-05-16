@@ -210,6 +210,7 @@ td:nth-child(4) {
     .feature-details .details {
     display: flex;
     flex-direction: column;
+    padding-bottom: 0;
     }
 
     .details .sub {
@@ -217,6 +218,7 @@ td:nth-child(4) {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 2rem;
+    margin-bottom: 0;
     }
 
     .details h3 {
@@ -232,9 +234,8 @@ td:nth-child(4) {
     }
 
     .feature-details .icloud img {
-    /* width: 470px;
-    height: 400px; */
-    /* align-items: center; */
+    width: 370px;
+    height: 300px;
     /* justify-content: center; */
     margin-top: 0;
     }
@@ -242,7 +243,6 @@ td:nth-child(4) {
     .storage-details {
     display: flex;
     flex-direction: column;
-    gap:2rem;
     border-radius: 1rem;
     }
 

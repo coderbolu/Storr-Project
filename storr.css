@@ -34,22 +34,25 @@ header {
   pointer-events: none;
 }
 
-.logo {
+/* .logo {
   margin: 1%;
-}
+} */
 
 .navbar {
   display: flex;
-  max-width: 95%;
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 10;
 }
 
 nav {
-  display: flex;
+    display: flex;
   justify-content: flex-end;
-  padding: 20px;
-  padding-left: 22rem;
+  padding: 20px 0;
+  flex: 1;
 }
 
 nav a {

@@ -134,7 +134,6 @@ nav a:hover {
 .active-users {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .active-users img {
@@ -143,7 +142,7 @@ nav a:hover {
 }
 
  .active-users span {
-    margin-left: 10px;
+    margin-left: 0;
 }
 
 

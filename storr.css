@@ -398,7 +398,7 @@ nav a:hover {
   position: relative;
   display: flex;
   flex-direction: row;
-  background-image: url('/assets/images/storage bg.jpg');
+  background-image: url('/assets/storage\ bg.jpg');
   background-size: cover;
   background-position: center;
   color: var(--White);

@@ -737,6 +737,22 @@ thead {
     height: 40px;
   }
 
+  .App-store {
+    transition: transform 0.3s ease;
+  }
+
+  .Google-play {
+    transition: transform 0.3s ease;
+  }
+
+  .App-store:hover {
+      transform: scale(1.05);
+  }
+
+  .Google-play:hover {
+      transform: scale(1.05);
+  }
+
   .active-users img {
     width: 80px;
   }

@@ -593,9 +593,33 @@ thead {
 
 @media (max-width: 640px) {
     /* Header Section */
-     nav {
+    nav {
     display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 999;
   }
+
+  nav.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  nav a:hover {
+    color: #0431C7;
+  } 
 
   .navbar {
     justify-content: center;
@@ -679,6 +703,12 @@ thead {
     grid-row: auto;
   }
 
+}
+
+@media (min-width: 641px) {
+  .hamburger {
+    display: none;
+  }
 }
 
 

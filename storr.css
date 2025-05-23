@@ -650,7 +650,7 @@ thead {
 
   .box-img {
     width: 50px;
-    right: 115px;
+    right: 57px;
     top: -40px;
   }
 
@@ -703,12 +703,6 @@ thead {
     grid-row: auto;
   }
 
-}
-
-@media (min-width: 641px) {
-  .hamburger {
-    display: none;
-  }
 }
 
 
@@ -821,5 +815,12 @@ thead {
   table {
     max-width: 80%;
     font-size: 0.7rem;
+  }
+}
+
+
+@media (min-width: 641px) {
+  .hamburger {
+    display: none;
   }
 }

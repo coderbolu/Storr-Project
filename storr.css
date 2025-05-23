@@ -657,11 +657,9 @@ thead {
   .right img.phone-mockup {
     max-width: 300px;
     padding: auto;
+    margin: auto;
   }
-  width: 100%;
-  max-width: 500px;
-  margin-right: 80px;
-}
+
   .store-buttons img {
     height: 40px;
     width: 100px;

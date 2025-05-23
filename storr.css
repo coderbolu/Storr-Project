@@ -621,12 +621,8 @@ thead {
     color: #0431C7;
   } 
 
-  .navbar {
-    justify-content: center;
-  }
-
   .logo {
-    margin: 0 auto;
+    margin-right: 4.5rem;
     text-align: center;
   }
 

@@ -588,7 +588,7 @@ thead {
 
 
 
- /* media query for mobile (smaller than 640px)  */
+/* media query for mobile (smaller than 640px)  */
 
 @media (max-width: 640px) {
     /* Header Section */
@@ -656,8 +656,12 @@ thead {
 
   .right img.phone-mockup {
     max-width: 300px;
+    padding: auto;
   }
-
+  width: 100%;
+  max-width: 500px;
+  margin-right: 80px;
+}
   .store-buttons img {
     height: 40px;
     width: 100px;

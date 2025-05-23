@@ -614,7 +614,7 @@ thead {
     font-size: 24px;
     color: white;
     cursor: pointer;
-    padding-left: 10rem;
+    padding-left: 9.5rem;
   }
   
   nav a:hover {
@@ -622,7 +622,7 @@ thead {
   } 
 
   .logo {
-    margin-right: 4.5rem;
+    margin-right: 5rem;
     text-align: center;
   }
 

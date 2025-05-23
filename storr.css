@@ -706,6 +706,14 @@ thead {
 }
 
 
+@media (min-width: 641px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+
+
 @media (max-width: 768px) {
   .feature-details {
     flex-direction: column;
@@ -815,12 +823,5 @@ thead {
   table {
     max-width: 80%;
     font-size: 0.7rem;
-  }
-}
-
-
-@media (min-width: 641px) {
-  .hamburger {
-    display: none;
   }
 }

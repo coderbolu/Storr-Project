@@ -699,6 +699,13 @@ thead {
     grid-row: auto;
   }
 
+
+  /* <!-- Storage Features Section --> */
+
+  .feature-details .icloud {
+    padding-right: 2rem;
+    margin-top: -3rem;
+  }
 }
 
 

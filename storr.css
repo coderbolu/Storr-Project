@@ -594,16 +594,18 @@ thead {
     /* Header Section */
     nav {
     display: none;
+    flex-direction: column;
     position: absolute;
     top: 60px;
-    right: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
-    flex-direction: column;
-    gap: 10px;
-    padding: 15px;
-    border-radius: 8px;
-    z-index: 999;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem 0;
+    z-index: 100;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    border-radius: 1rem;
   }
+
 
   nav.active {
     display: flex;
